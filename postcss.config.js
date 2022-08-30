@@ -2,7 +2,7 @@ module.exports = {
   plugins: {
     'postcss-nested': {},
     'postcss-sorting': {
-      order: [
+      'order': [
         'custom-properties',
         'dollar-variables',
         'declarations',
@@ -13,4 +13,4 @@ module.exports = {
       'unspecified-properties-position': 'bottom',
     },
   },
-};
+}

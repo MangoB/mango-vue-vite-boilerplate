@@ -12,13 +12,21 @@ function reset() {
 <template>
   <div class="text-center pa-8">
     <div class="mb-6">
-      <p class="text-h4 font-weight-bold">Counter</p>
-      <p class="text-medium-emphasis">Increase by one</p>
+      <p class="text-h4 font-weight-bold">
+        Counter
+      </p>
+      <p class="text-medium-emphasis">
+        Increase by one
+      </p>
     </div>
 
     <div class="mb-4">
-      <v-icon size="large">mdi-counter</v-icon>
-      <p class="text-h2">{{ count }}</p>
+      <v-icon size="large">
+        mdi-counter
+      </v-icon>
+      <p class="text-h2">
+        {{ count }}
+      </p>
     </div>
 
     <div class="d-flex ma-auto max-width-button-group">
@@ -26,19 +34,21 @@ function reset() {
         prepend-icon="mdi-numeric-0-box"
         class="mx-2"
         color="error"
-        @click="reset"
         plain
+        @click="reset"
       >
         Reset
       </v-btn>
       <v-btn
         class="mx-2"
         color="success"
-        @click="increment"
         plain
+        @click="increment"
       >
-        <template v-slot:prepend>
-          <v-icon class="icon-positive-1-bg" color="success">mdi-numeric-positive-1</v-icon>
+        <template #prepend>
+          <v-icon class="icon-positive-1-bg" color="success">
+            mdi-numeric-positive-1
+          </v-icon>
         </template>
         Increase
       </v-btn>

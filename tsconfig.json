@@ -16,7 +16,7 @@
     "types": [
       // "vitest",
       "vite/client",
-      "vue/ref-macros",
+      "vue/ref-macros"
     ],
     "paths": {
       "@/*": [
