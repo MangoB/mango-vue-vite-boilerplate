@@ -6,11 +6,11 @@ import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import vue from '@vitejs/plugin-vue'
 
-
 export default defineConfig({
   define: {
     'import.meta.env': {},
   },
+
   plugins: [
     AutoImport({
       imports: [
@@ -32,12 +32,21 @@ export default defineConfig({
       dts: 'src/components.d.ts',
     }),
     vue({
-      reactivityTransform: true
+      reactivityTransform: true,
     }),
     vuetify({
       autoImport: true,
     }),
   ],
+
+  // https://github.com/vitest-dev/vitest
+  test: {
+    css: false,
+    include: ['src/tests/**/*.test.ts'],
+    environment: 'jsdom',
+    clearMocks: true,
+  },
+
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
