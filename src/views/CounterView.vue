@@ -2,5 +2,5 @@
 </script>
 
 <template>
-  <Welcome/>
+  <CountNumber />
 </template>
