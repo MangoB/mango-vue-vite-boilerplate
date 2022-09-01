@@ -14,9 +14,9 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      // "vitest",
       "vite/client",
-      "vue/ref-macros"
+      "vue/ref-macros",
+      "vitest/globals"
     ],
     "paths": {
       "@/*": [
@@ -34,11 +34,10 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
   ],
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "cypress"
   ]
 }

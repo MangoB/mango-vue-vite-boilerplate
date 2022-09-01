@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/// <reference types="vitest" />
 import path from 'path'
 import { defineConfig } from 'vite'
 
@@ -39,12 +41,17 @@ export default defineConfig({
     }),
   ],
 
-  // https://github.com/vitest-dev/vitest
   test: {
-    css: false,
+    globals: true,
+    environment: 'happy-dom',
+    setupFiles: 'vuetify.config.ts',
+    deps: {
+      inline: ['vuetify'],
+    },
     include: ['src/tests/**/*.test.ts'],
-    environment: 'jsdom',
-    clearMocks: true,
+    resolveSnapshotPath: (testPath, snapExtension) => {
+      return (testPath + snapExtension).replace('components', '__snapshots__')
+    },
   },
 
   resolve: {

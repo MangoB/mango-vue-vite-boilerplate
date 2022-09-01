@@ -1,0 +1,83 @@
+// Vitest Snapshot v1
+
+exports[`AppBar.vue > should render 1`] = `
+"<div class=\\"v-application v-theme--light v-layout v-layout--full-height v-locale--is-ltr\\" style=\\"z-index: 1000;\\">
+  <div class=\\"v-application__wrap\\">
+    <header class=\\"v-toolbar v-toolbar--density-default bg-primary v-theme--light v-app-bar\\" style=\\"z-index: 1004; transform: translateY(0%); position: fixed;\\" prominent=\\"\\" data-v-d1b168af=\\"\\">
+      <!---->
+      <div class=\\"v-toolbar__content\\" style=\\"height: 64px;\\">
+        <!---->
+        <!----><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light v-btn--density-default v-btn--size-default v-btn--variant-text v-app-bar-nav-icon hidden-lg-and-up\\" data-test=\\"btn-drawer\\" data-v-d1b168af=\\"\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+          <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-menu mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span>
+          <!---->
+          <!---->
+        </button>
+        <div class=\\"v-toolbar-title v-app-bar-title flex-grow-0 flex-shrink-1 flex-basis-auto mr-4\\" data-v-d1b168af=\\"\\">
+          <div class=\\"v-toolbar-title__placeholder\\">
+            <!----> MangoB Boilerplate
+          </div>
+        </div>
+        <p class=\\"hidden-md-and-down mx-4\\" data-v-d1b168af=\\"\\"> | </p><a class=\\"v-btn v-theme--light v-btn--density-default v-btn--size-default v-btn--variant-text hidden-md-and-down\\" data-test=\\"btn-nav-home\\" data-v-d1b168af=\\"\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+          <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\">Home</span>
+          <!---->
+          <!---->
+        </a><a class=\\"v-btn v-theme--light v-btn--density-default v-btn--size-default v-btn--variant-text text-medium-emphasis hidden-md-and-down\\" data-test=\\"btn-nav-counter\\" data-v-d1b168af=\\"\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+          <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\">Counter</span>
+          <!---->
+          <!---->
+        </a>
+        <div class=\\"flex-grow-1\\" data-v-d1b168af=\\"\\"></div><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light v-btn--density-default v-btn--size-default v-btn--variant-text\\" data-v-d1b168af=\\"\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+          <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-magnify mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\" data-v-d1b168af=\\"\\"></i></span>
+          <!---->
+          <!---->
+        </button><button type=\\"button\\" class=\\"v-btn v-btn--icon v-theme--light v-btn--density-default v-btn--size-default v-btn--variant-text\\" data-v-d1b168af=\\"\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
+          <!----><span class=\\"v-btn__content\\" data-no-activator=\\"\\"><i class=\\"mdi-dots-vertical mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\" data-v-d1b168af=\\"\\"></i></span>
+          <!---->
+          <!---->
+        </button>
+        <!---->
+      </div>
+      <transition-stub>
+        <!---->
+      </transition-stub>
+    </header>
+    <nav class=\\"v-navigation-drawer v-navigation-drawer--left v-navigation-drawer--temporary v-theme--light hidden-lg-and-up\\" style=\\"z-index: 1004; transform: translateX(-110%); position: absolute; transition: noneimportant;\\">
+      <!---->
+      <!---->
+      <div class=\\"v-navigation-drawer__content\\">
+        <div class=\\"v-list v-theme--light bg-transparent v-list--density-default v-list--one-line\\" data-v-d1b168af=\\"\\"><a class=\\"v-list-item v-list-item--active v-list-item--link undefined v-theme--light text-primary v-list-item--density-default v-list-item--one-line v-list-item--variant-text\\" tabindex=\\"0\\" data-test=\\"btn-nav-home\\" data-v-d1b168af=\\"\\"><span class=\\"v-list-item__overlay\\"></span><span class=\\"v-list-item__underlay\\"></span>
+            <div class=\\"v-list-item__prepend\\">
+              <!---->
+              <!----><i class=\\"mdi-home mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\" data-v-d1b168af=\\"\\"></i>
+            </div>
+            <div class=\\"v-list-item__content\\">
+              <!---->
+              <!---->
+              <div class=\\"v-list-item-title\\" data-v-d1b168af=\\"\\">Home</div>
+            </div>
+            <!---->
+          </a><a class=\\"v-list-item v-list-item--link v-theme--light v-list-item--density-default v-list-item--one-line v-list-item--variant-text\\" tabindex=\\"0\\" data-test=\\"btn-nav-counter\\" data-v-d1b168af=\\"\\"><span class=\\"v-list-item__overlay\\"></span><span class=\\"v-list-item__underlay\\"></span>
+            <div class=\\"v-list-item__prepend\\">
+              <!---->
+              <!----><i class=\\"mdi-counter mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\" data-v-d1b168af=\\"\\"></i>
+            </div>
+            <div class=\\"v-list-item__content\\">
+              <!---->
+              <!---->
+              <div class=\\"v-list-item-title\\" data-v-d1b168af=\\"\\">Counter</div>
+            </div>
+            <!---->
+          </a></div>
+        <hr class=\\"v-divider v-theme--light\\" aria-orientation=\\"horizontal\\" role=\\"separator\\" data-v-d1b168af=\\"\\">
+      </div>
+      <!---->
+    </nav>
+    <transition-stub>
+      <!---->
+    </transition-stub>
+    <main class=\\"v-main\\" style=\\"--v-layout-left: 0px; --v-layout-right: 0px; --v-layout-top: 0px; --v-layout-bottom: 0px; transition: noneimportant;\\">
+      <div></div>
+    </main>
+  </div>
+</div>"
+`;

@@ -21,16 +21,20 @@ function reset() {
     </div>
 
     <div class="mb-4">
-      <v-icon size="large">
+      <v-icon size="x-large">
         mdi-counter
       </v-icon>
-      <p class="text-h2">
+      <p
+        data-test="count-number"
+        class="text-h2"
+      >
         {{ count }}
       </p>
     </div>
 
     <div class="d-flex ma-auto max-width-button-group">
       <v-btn
+        data-test="btn-reset"
         prepend-icon="mdi-numeric-0-box"
         class="mx-2"
         color="error"
@@ -40,6 +44,7 @@ function reset() {
         Reset
       </v-btn>
       <v-btn
+        data-test="btn-increment"
         class="mx-2"
         color="success"
         plain
@@ -53,15 +58,6 @@ function reset() {
         Increase
       </v-btn>
     </div>
-    <!-- <v-btn
-      prepend-icon="mdi-cloud-upload"
-      @click="reset"
-    >
-        <v-icon>mdi-numeric-0-box</v-icon>
-    </v-btn>
-    <v-btn icon @click="increment">
-        <v-icon>mdi-numeric-positive-1</v-icon>
-    </v-btn> -->
   </div>
 </template>
 

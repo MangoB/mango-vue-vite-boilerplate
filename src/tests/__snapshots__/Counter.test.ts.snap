@@ -1,0 +1,20 @@
+// Vitest Snapshot v1
+
+exports[`Counter.vue > should render 1`] = `
+"<div class=\\"text-center pa-8\\" data-v-9bd91872=\\"\\">
+  <div class=\\"mb-6\\" data-v-9bd91872=\\"\\">
+    <p class=\\"text-h4 font-weight-bold\\" data-v-9bd91872=\\"\\"> Counter </p>
+    <p class=\\"text-medium-emphasis\\" data-v-9bd91872=\\"\\"> Increase by one </p>
+  </div>
+  <div class=\\"mb-4\\" data-v-9bd91872=\\"\\"><i class=\\"mdi-counter mdi v-icon notranslate v-theme--light v-icon--size-x-large\\" aria-hidden=\\"true\\" data-v-9bd91872=\\"\\"></i>
+    <p data-test=\\"count-number\\" class=\\"text-h2\\" data-v-9bd91872=\\"\\">0</p>
+  </div>
+  <div class=\\"d-flex ma-auto max-width-button-group\\" data-v-9bd91872=\\"\\"><button type=\\"button\\" class=\\"v-btn v-btn--elevated v-theme--light bg-error v-btn--density-default v-btn--size-default v-btn--variant-elevated mx-2\\" data-test=\\"btn-reset\\" plain=\\"\\" data-v-9bd91872=\\"\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span><span class=\\"v-btn__prepend\\"><i class=\\"mdi-numeric-0-box mdi v-icon notranslate v-theme--light v-icon--size-default\\" aria-hidden=\\"true\\"></i></span><span class=\\"v-btn__content\\" data-no-activator=\\"\\"> Reset </span>
+      <!---->
+      <!---->
+    </button><button type=\\"button\\" class=\\"v-btn v-btn--elevated v-theme--light bg-success v-btn--density-default v-btn--size-default v-btn--variant-elevated mx-2\\" data-test=\\"btn-increment\\" plain=\\"\\" data-v-9bd91872=\\"\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span><span class=\\"v-btn__prepend\\"><i class=\\"mdi-numeric-positive-1 mdi v-icon notranslate v-theme--light v-icon--size-default text-success icon-positive-1-bg\\" aria-hidden=\\"true\\" data-v-9bd91872=\\"\\"></i></span><span class=\\"v-btn__content\\" data-no-activator=\\"\\"> Increase </span>
+      <!---->
+      <!---->
+    </button></div>
+</div>"
+`;

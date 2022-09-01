@@ -8,7 +8,8 @@
     "serve": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "vitest"
+    "test": "vitest",
+    "test:e2e": "cypress open"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
@@ -24,7 +25,10 @@
     "@types/node": "^18.7.13",
     "@types/webfontloader": "^1.0.0",
     "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/test-utils": "^2.0.2",
+    "cypress": "^10.7.0",
     "eslint": "^8.23.0",
+    "happy-dom": "^6.0.4",
     "postcss-nested": "^5.0.6",
     "postcss-sorting": "^7.0.1",
     "typescript": "~4.5.5",

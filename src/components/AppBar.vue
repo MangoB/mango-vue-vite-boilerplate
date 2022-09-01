@@ -4,17 +4,19 @@ import router from '@/router'
 const drawer = $ref(false)
 const items = $ref([
   {
-    title: 'Home',
-    value: '/',
-    props: {
+    'title': 'Home',
+    'value': '/',
+    'data-test': 'btn-nav-home',
+    'props': {
       prependIcon: 'mdi-home',
       to: '/',
     },
   },
   {
-    title: 'Counter',
-    value: '/counter',
-    props: {
+    'title': 'Counter',
+    'value': '/counter',
+    'data-test': 'btn-nav-counter',
+    'props': {
       prependIcon: 'mdi-counter',
       to: '/counter',
     },
@@ -30,6 +32,7 @@ const pathName = computed(() => router.currentRoute.value.path)
     prominent
   >
     <v-app-bar-nav-icon
+      data-test="btn-drawer"
       class="hidden-lg-and-up"
       @click="drawer = !drawer"
     />
@@ -38,12 +41,13 @@ const pathName = computed(() => router.currentRoute.value.path)
     >
       MangoB Boilerplate
     </v-app-bar-title>
-    <p class="hidden-md-and-down mr-4">
+    <p class="hidden-md-and-down mx-4">
       |
     </p>
     <v-btn
       v-for="(item, i) in items"
       :key="i"
+      :data-test="item['data-test']"
       :to="item.props.to"
       :class="item.value !== pathName && 'text-medium-emphasis'"
       class="hidden-md-and-down"
@@ -68,6 +72,7 @@ const pathName = computed(() => router.currentRoute.value.path)
       <v-list-item
         v-for="(item, i) in items"
         :key="i"
+        :data-test="item['data-test']"
         :active="item.value === pathName"
         :value="item.value"
         :to="item.props.to"
@@ -86,7 +91,7 @@ const pathName = computed(() => router.currentRoute.value.path)
 </template>
 
 <style scoped>
-    .flex-basis-auto {
-        flex-basis: auto;
-    }
+  .flex-basis-auto {
+    flex-basis: auto;
+  }
 </style>
