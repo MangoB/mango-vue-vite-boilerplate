@@ -1,21 +1,35 @@
 import type { RouteRecordRaw } from 'vue-router'
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+
+const importComponentFunctionFromView = (fileName: string) => {
+  return import(`../views/${fileName}.vue`)
+}
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView,
+    name: 'Home',
+    component: () => importComponentFunctionFromView('HomeView'),
+    meta: {
+      layout: 'DefaultLayout',
+    },
   },
   {
     path: '/counter',
-    name: 'counter',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/CounterView.vue'),
+    name: 'Counter',
+    meta: {
+      layout: 'DefaultLayout',
+    },
+    component: () => importComponentFunctionFromView('CounterView'),
   },
+  // {
+  //   path: '/:pathMatch(.*)*',
+  //   name: 'NotFound',
+  //   meta: {
+  //     layout: 'NoneLayout',
+  //   },
+  //   component: () => importComponentFunctionFromView('NotFoundView'),
+  // },
 ]
 
 const router = createRouter({
