@@ -1,6 +1,7 @@
 # Mango Boilerplate
-Opinionated Vue 3 + Vite starter template.
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/MangoB/mango-boilerplate/blob/main/LICENSE.md)
 
+Opinionated Vue 3 + Vite starter template.
 
 <br>
 
