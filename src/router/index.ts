@@ -22,14 +22,14 @@ const routes: Array<RouteRecordRaw> = [
     },
     component: () => importComponentFunctionFromView('CounterView'),
   },
-  // {
-  //   path: '/:pathMatch(.*)*',
-  //   name: 'NotFound',
-  //   meta: {
-  //     layout: 'NoneLayout',
-  //   },
-  //   component: () => importComponentFunctionFromView('NotFoundView'),
-  // },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    meta: {
+      layout: 'NoneLayout',
+    },
+    component: () => importComponentFunctionFromView('NotFoundView'),
+  },
 ]
 
 const router = createRouter({
