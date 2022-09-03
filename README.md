@@ -1,5 +1,5 @@
 # Mango Boilerplate
-Opinionated Vite starter template.
+Opinionated Vue 3 + Vite starter template.
 
 
 <br>
