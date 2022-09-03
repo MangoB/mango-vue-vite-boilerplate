@@ -10,7 +10,7 @@ context('UI', () => {
 
   it('Should display home page correctly', () => {
     cy.get('p')
-      .should('contain', 'Welcome to MangoB Boilerplate')
+      .should('contain', 'Welcome to Mango Boilerplate')
       .and('contain', 'Vite Starter Template')
       .and('contains', /(^See )((<.+>))( README.md )((<\/a>))( for more information.$)/)
   })

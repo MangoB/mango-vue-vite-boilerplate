@@ -32,7 +32,7 @@ context('UI', () => {
       }
 
       cy.get('.v-toolbar-title')
-        .contains('MangoB Boilerplate')
+        .contains('Mango Boilerplate')
 
       cy.get('[data-test="btn-nav-home"]:visible')
         .should('be.visible', 1)

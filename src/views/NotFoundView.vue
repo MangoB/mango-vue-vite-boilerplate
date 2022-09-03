@@ -25,6 +25,7 @@ function goHomePage() {
           The link is broken or the page has been moved
         </div>
         <v-btn
+          data-test="btn-go-home-page"
           class="mt-6 font-weight-bold"
           outlined
           rounded

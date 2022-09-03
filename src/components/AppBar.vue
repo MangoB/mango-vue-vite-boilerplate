@@ -39,7 +39,7 @@ const pathName = computed(() => router.currentRoute.value.path)
     <v-app-bar-title
       class="flex-grow-0 flex-shrink-1 flex-basis-auto mr-4"
     >
-      MangoB Boilerplate
+      Mango Boilerplate
     </v-app-bar-title>
     <p class="hidden-md-and-down mx-4">
       |

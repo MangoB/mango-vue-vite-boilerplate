@@ -28,7 +28,7 @@ const AppComponent = {
 describe('AppBar.vue', () => {
   it('should render', () => {
     const wrapper = mount(AppComponent)
-    expect(wrapper.html()).toContain('MangoB Boilerplate')
+    expect(wrapper.html()).toContain('Mango Boilerplate')
     expect(wrapper.html()).toMatchSnapshot()
   })
 })

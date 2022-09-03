@@ -5,7 +5,7 @@
   <div class="text-center pa-8">
     <div class="mb-6">
       <p class="text-h4 font-weight-bold">
-        Welcome to MangoB Boilerplate
+        Welcome to Mango Boilerplate
       </p>
       <p class="text-medium-emphasis">
         Vite Starter Template

@@ -14,7 +14,7 @@ exports[`AppBar.vue > should render 1`] = `
         </button>
         <div class=\\"v-toolbar-title v-app-bar-title flex-grow-0 flex-shrink-1 flex-basis-auto mr-4\\" data-v-d1b168af=\\"\\">
           <div class=\\"v-toolbar-title__placeholder\\">
-            <!----> MangoB Boilerplate
+            <!----> Mango Boilerplate
           </div>
         </div>
         <p class=\\"hidden-md-and-down mx-4\\" data-v-d1b168af=\\"\\"> | </p><a class=\\"v-btn v-theme--light v-btn--density-default v-btn--size-default v-btn--variant-text hidden-md-and-down\\" data-test=\\"btn-nav-home\\" data-v-d1b168af=\\"\\"><span class=\\"v-btn__overlay\\"></span><span class=\\"v-btn__underlay\\"></span>
