@@ -1,4 +1,4 @@
-# boilerplate-vue3
+# mango-boilerplate
 
 ## Project setup
 ```
