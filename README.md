@@ -1,16 +1,13 @@
 # Mango Boilerplate
 Opinionated Vue 3 + Vite starter template.
 
-
 <br>
 
+## What's inside
 
-## Features
+- 🎑 [Vue 3](https://vuejs.org/) - The Progressive JavaScript Framework
 
-- 🎑 [Vue 3](https://vuejs.org/) - The Progressive
-JavaScript Framework
-
-- 🏳️ [Vite 3](https://vitejs.dev/) - Next Generation Frontend Tooling
+- 🏳️ [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
 
 - 📦 [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager
 
@@ -18,20 +15,19 @@ JavaScript Framework
 
 - 🛣️ [Vue Router](https://router.vuejs.org/) - The official router for Vue.js.
 
-- 🎨 [Vuetify](https://next.vuetifyjs.com/en/) - Vue UI Library with beautifully handcrafted Material Components.
-
-- 🗃️ [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - Auto import APIs on-demand for Vite and etc. With TypeScript support.
-
-- 🗄️ [Components auto importing](https://github.com/antfu/unplugin-vue-components) - On-demand components auto importing for Vue.
+- 🎨 [Vuetify 3](https://next.vuetifyjs.com/en/) - Vue UI Library with beautifully handcrafted Material Components.
 
 - ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest)
 
 - 🌲 E2E Testing with [Cypress](https://cypress.io/)
 
+- 🗃️ [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - Auto import APIs on-demand for Vite and etc. With TypeScript support.
+
+- 🗄️ [Components auto importing](https://github.com/antfu/unplugin-vue-components) - On-demand components auto importing for Vue.
+
 - ✨ Use the [new `<script setup>` syntax](https://vuejs.org/api/sfc-script-setup.html#basic-syntax)
 
 - 💪 Written in [TypeScript](https://vuejs.org/guide/typescript/overview.html#using-vue-with-typescript)
-
 
 - 🌀 [Path Aliasing](./vite.config.ts) - `@/` is aliased to `./src/` folder.
 
@@ -39,31 +35,36 @@ JavaScript Framework
 
 - 🤙🏻 [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html) enabled
 
+- ⭕🟥🔺 [PostCSS](https://postcss.org/)
 
 <br>
 
+## Requirements
 
-## Requires!
-
-> Vue 3 requires Node.js version 15.0 or higher
->
-> Vite requires Node.js version 14.18+, 16+
-
+- [Node.js](https://nodejs.org/) v18+
+- [pnpm](https://pnpm.io/installation) (Recommended) or [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) or [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 <br>
 
+## Getting Started
 
-### Clone to local
+Just fork it.
 
-If you prefer to do it manually with the cleaner git history
+<br>
+
+Or clone from this template by terminal
 
 ```bash
 git clone https://github.com/MangoB/mango-boilerplate.git
 cd mango-boilerplate.
 # If you don't have pnpm installed, run: npm install -g pnpm
 pnpm i 
+pnpm dev
 ```
 
+The app will become available at [http://localhost:5173/](http://localhost:5173/).
+
+<br>
 
 ## Usage
 
@@ -117,7 +118,7 @@ pnpm test
 ```
 
 
-### Run E2E
+### Run E2E test
 
 run all e2e tests with the Cypress Test
 
