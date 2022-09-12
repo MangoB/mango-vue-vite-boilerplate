@@ -1,11 +1,12 @@
 <script setup lang="ts">
+const mainStore = useMainStore()
 </script>
 
 <template>
   <div class="text-center pa-8">
     <div class="mb-6">
       <p class="text-h4 font-weight-bold">
-        Welcome to Mango Boilerplate
+        Welcome to {{ mainStore.templateName }}
       </p>
       <p class="text-medium-emphasis">
         Vite Starter Template

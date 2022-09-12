@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import router from '@/router'
-
+const mainStore = useMainStore()
 const drawer = $ref(false)
 const items = $ref([
   {
@@ -39,7 +39,7 @@ const pathName = computed(() => router.currentRoute.value.path)
     <v-app-bar-title
       class="flex-grow-0 flex-shrink-1 flex-basis-auto mr-4"
     >
-      Mango Boilerplate
+      {{ mainStore.templateName }}
     </v-app-bar-title>
     <p class="hidden-md-and-down mx-4">
       |
