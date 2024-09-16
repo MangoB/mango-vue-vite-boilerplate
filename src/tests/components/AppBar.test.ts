@@ -1,4 +1,5 @@
 import { config, mount } from '@vue/test-utils'
+import { setActivePinia, createPinia } from 'pinia'
 import { createVuetify } from 'vuetify'
 
 import { VApp, VMain } from 'vuetify/components'
@@ -26,6 +27,9 @@ const AppComponent = {
 }
 
 describe('AppBar.vue', () => {
+  beforeEach(() => {
+    setActivePinia(createPinia())
+  })
   it('should render', () => {
     const wrapper = mount(AppComponent)
     expect(wrapper.html()).toContain('Mango Boilerplate')

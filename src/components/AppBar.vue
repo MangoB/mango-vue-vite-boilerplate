@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import router from '@/router'
-const mainStore = useMainStore()
-const drawer = $ref(false)
-const items = $ref([
+
+const { templateName } = useMainStore()
+const drawer = ref(false)
+const items = ref([
   {
     'title': 'Home',
     'value': '/',
@@ -39,7 +40,7 @@ const pathName = computed(() => router.currentRoute.value.path)
     <v-app-bar-title
       class="flex-grow-0 flex-shrink-1 flex-basis-auto mr-4"
     >
-      {{ mainStore.templateName }}
+      {{ templateName }}
     </v-app-bar-title>
     <p class="hidden-md-and-down mx-4">
       |
@@ -76,7 +77,7 @@ const pathName = computed(() => router.currentRoute.value.path)
         :active="item.value === pathName"
         :value="item.value"
         :to="item.props.to"
-        active-color="primary"
+        color="primary"
       >
         <template #prepend>
           <v-icon :icon="item.props.prependIcon" />

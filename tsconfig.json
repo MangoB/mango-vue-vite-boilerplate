@@ -15,7 +15,6 @@
     "baseUrl": ".",
     "types": [
       "vite/client",
-      "vue/ref-macros",
       "vitest/globals"
     ],
     "paths": {
