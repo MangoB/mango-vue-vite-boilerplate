@@ -1,5 +1,5 @@
-# Mango Boilerplate
-[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/MangoB/mango-boilerplate/blob/main/LICENSE.md)
+# Mango Boilerplate (Vue + Vite)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/MangoB/mango-vue-vite-boilerplate/blob/main/LICENSE.md)
 
 Opinionated Vue 3 + Vite starter template.
 
@@ -57,8 +57,8 @@ Just fork it.
 Or clone from this template by terminal
 
 ```bash
-git clone https://github.com/MangoB/mango-boilerplate.git
-cd mango-boilerplate.
+git clone https://github.com/MangoB/mango-vue-vite-boilerplate.git
+cd mango-vue-vite-boilerplate.
 # If you don't have pnpm installed, run: npm install -g pnpm
 pnpm i 
 pnpm dev

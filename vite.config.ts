@@ -17,7 +17,6 @@ export default defineConfig({
       imports: [
         'vue',
         'vue-router',
-        'vue/macros',
       ],
       dts: 'src/auto-imports.d.ts',
       dirs: [
