@@ -4,6 +4,7 @@
     "module": "ESNext",
     "strict": true,
     "jsx": "preserve",
+    "jsxImportSource": "vue",
     "importHelpers": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
@@ -38,5 +39,9 @@
     "node_modules",
     "dist",
     "cypress"
+  ],
+  "typeRoots": [
+    "./node_modules/@types",
+    "./src/types"
   ]
 }
