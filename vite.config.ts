@@ -1,8 +1,8 @@
 /// <reference types="vitest" />
-import path from 'path'
+import path = require("path")
 import { defineConfig } from 'vite'
 
-import vuetify from 'vite-plugin-vuetify'
+import vuetify = require("vite-plugin-vuetify")
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import vue from '@vitejs/plugin-vue'
@@ -31,9 +31,7 @@ export default defineConfig({
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
       dts: 'src/components.d.ts',
     }),
-    vue({
-      reactivityTransform: true,
-    }),
+    vue({}),
     vuetify({
       autoImport: true,
     }),

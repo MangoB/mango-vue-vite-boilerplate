@@ -50,8 +50,9 @@ const pathName = computed(() => router.currentRoute.value.path)
       :key="i"
       :data-test="item['data-test']"
       :to="item.props.to"
-      :class="item.value !== pathName && 'text-medium-emphasis'"
       class="hidden-md-and-down"
+      active-color="white"
+      color="grey-lighten-1"
     >
       {{ item.title }}
     </v-btn>
